@@ -16,8 +16,8 @@ const TestId = () => {
     const [opcionesId, setOpcionesId] = useState([]);
     const [points, setPoints] = useState([])
 
-    const [select, setSelect] = useState()
-    const [error, setError] = useState(false)
+    // const [select, setSelect] = useState()
+    // const [error, setError] = useState(false)
     // const pints = points
 
 
@@ -57,7 +57,7 @@ const TestId = () => {
             <ReactPlayer url={testId.video} controls />
             <p>{testId.descripcion}</p>
             <div>
-                {error && <errorMessage>{error}</errorMessage>}
+                {/* {error && <errorMessage>{error}</errorMessage>} */}
                 {/* {options && options.map((i) =><button>{i}</button>)} */}
             </div>
             <div>

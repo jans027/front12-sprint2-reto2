@@ -1,15 +1,15 @@
 import axios from 'axios'
 import React, { Component } from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink} from 'react-router-dom'
 // sweat alert
-import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
+// import Swal from 'sweetalert2'
+// import withReactContent from 'sweetalert2-react-content'
 import { ApiUrl } from '../services/apirest'
-const MySwal = withReactContent(Swal)
+// const MySwal = withReactContent(Swal)
 
 
 
-const  id   = sessionStorage.getItem("id");
+// const  id   = sessionStorage.getItem("id");
 const name  = sessionStorage.getItem("name");
 const email = sessionStorage.getItem("email");
 const phone = sessionStorage.getItem("phone");
